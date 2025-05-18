@@ -19,6 +19,7 @@ java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -o generated Calculato
 ![Captura de pantalla (448)](https://github.com/user-attachments/assets/14596027-1606-4573-82da-21fd2993c5af)
 
 6.Si no muestra el tree de antlr reemplazar en vscode>launch.json
+
 {
     "version": "2.0.0",
     "configurations": [
@@ -33,6 +34,8 @@ java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -o generated Calculato
     }
     ]
 }
+![image](https://github.com/user-attachments/assets/59096e67-7ba0-4fd9-b89e-78cdf8905594)
+
 
 7.En input.txt ponemos el ejemplo1
 ![Captura de pantalla (449)](https://github.com/user-attachments/assets/2543596b-970a-4bc6-ab17-cbde0756cab9)
