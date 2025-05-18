@@ -1,0 +1,85 @@
+// Generated from Calculator.g4 by ANTLR 4.13.2
+// jshint ignore: start
+import antlr4 from 'antlr4';
+
+
+const serializedATN = [4,0,18,97,6,-1,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,
+4,7,4,2,5,7,5,2,6,7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,
+12,2,13,7,13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,1,1,1,1,1,2,
+1,2,1,3,1,3,1,4,1,4,1,5,1,5,1,6,4,6,51,8,6,11,6,12,6,52,1,6,1,6,1,7,4,7,
+58,8,7,11,7,12,7,59,1,7,1,7,1,8,1,8,1,8,1,9,1,9,1,9,1,9,1,9,1,10,1,10,1,
+10,1,10,1,10,1,10,1,10,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,12,1,12,1,13,
+1,13,1,14,1,14,1,15,1,15,1,16,1,16,1,17,1,17,0,0,18,1,1,3,2,5,3,7,4,9,5,
+11,6,13,7,15,8,17,9,19,10,21,11,23,12,25,13,27,14,29,15,31,16,33,17,35,18,
+1,0,6,1,0,97,122,1,0,65,90,1,0,48,57,6,0,33,34,39,39,44,44,46,46,58,59,63,
+63,2,0,9,9,32,32,2,0,10,10,13,13,98,0,1,1,0,0,0,0,3,1,0,0,0,0,5,1,0,0,0,
+0,7,1,0,0,0,0,9,1,0,0,0,0,11,1,0,0,0,0,13,1,0,0,0,0,15,1,0,0,0,0,17,1,0,
+0,0,0,19,1,0,0,0,0,21,1,0,0,0,0,23,1,0,0,0,0,25,1,0,0,0,0,27,1,0,0,0,0,29,
+1,0,0,0,0,31,1,0,0,0,0,33,1,0,0,0,0,35,1,0,0,0,1,37,1,0,0,0,3,39,1,0,0,0,
+5,41,1,0,0,0,7,43,1,0,0,0,9,45,1,0,0,0,11,47,1,0,0,0,13,50,1,0,0,0,15,57,
+1,0,0,0,17,63,1,0,0,0,19,66,1,0,0,0,21,71,1,0,0,0,23,78,1,0,0,0,25,85,1,
+0,0,0,27,87,1,0,0,0,29,89,1,0,0,0,31,91,1,0,0,0,33,93,1,0,0,0,35,95,1,0,
+0,0,37,38,5,48,0,0,38,2,1,0,0,0,39,40,5,49,0,0,40,4,1,0,0,0,41,42,7,0,0,
+0,42,6,1,0,0,0,43,44,7,1,0,0,44,8,1,0,0,0,45,46,7,2,0,0,46,10,1,0,0,0,47,
+48,7,3,0,0,48,12,1,0,0,0,49,51,7,4,0,0,50,49,1,0,0,0,51,52,1,0,0,0,52,50,
+1,0,0,0,52,53,1,0,0,0,53,54,1,0,0,0,54,55,6,6,0,0,55,14,1,0,0,0,56,58,7,
+5,0,0,57,56,1,0,0,0,58,59,1,0,0,0,59,57,1,0,0,0,59,60,1,0,0,0,60,61,1,0,
+0,0,61,62,6,7,0,0,62,16,1,0,0,0,63,64,5,105,0,0,64,65,5,102,0,0,65,18,1,
+0,0,0,66,67,5,101,0,0,67,68,5,108,0,0,68,69,5,115,0,0,69,70,5,101,0,0,70,
+20,1,0,0,0,71,72,5,114,0,0,72,73,5,101,0,0,73,74,5,116,0,0,74,75,5,117,0,
+0,75,76,5,114,0,0,76,77,5,110,0,0,77,22,1,0,0,0,78,79,5,112,0,0,79,80,5,
+114,0,0,80,81,5,105,0,0,81,82,5,110,0,0,82,83,5,116,0,0,83,84,5,102,0,0,
+84,24,1,0,0,0,85,86,5,40,0,0,86,26,1,0,0,0,87,88,5,41,0,0,88,28,1,0,0,0,
+89,90,5,123,0,0,90,30,1,0,0,0,91,92,5,125,0,0,92,32,1,0,0,0,93,94,5,59,0,
+0,94,34,1,0,0,0,95,96,5,34,0,0,96,36,1,0,0,0,3,0,52,59,1,6,0,0];
+
+
+const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
+
+export default class CalculatorLexer extends antlr4.Lexer {
+
+    static grammarFileName = "Calculator.g4";
+    static channelNames = [ "DEFAULT_TOKEN_CHANNEL", "HIDDEN" ];
+	static modeNames = [ "DEFAULT_MODE" ];
+	static literalNames = [ null, "'0'", "'1'", null, null, null, null, null, 
+                         null, "'if'", "'else'", "'return'", "'printf'", 
+                         "'('", "')'", "'{'", "'}'", "';'", "'\"'" ];
+	static symbolicNames = [ null, null, null, "LETRA_MINUS", "LETRA_MAYUS", 
+                          "DIGITO", "SIMBOLO", "WS", "NEWLINE", "IF", "ELSE", 
+                          "RETURN", "PRINTF", "LPAREN", "RPAREN", "LBRACE", 
+                          "RBRACE", "SEMI", "QUOTE" ];
+	static ruleNames = [ "T__0", "T__1", "LETRA_MINUS", "LETRA_MAYUS", "DIGITO", 
+                      "SIMBOLO", "WS", "NEWLINE", "IF", "ELSE", "RETURN", 
+                      "PRINTF", "LPAREN", "RPAREN", "LBRACE", "RBRACE", 
+                      "SEMI", "QUOTE" ];
+
+    constructor(input) {
+        super(input)
+        this._interp = new antlr4.atn.LexerATNSimulator(this, atn, decisionsToDFA, new antlr4.atn.PredictionContextCache());
+    }
+}
+
+CalculatorLexer.EOF = antlr4.Token.EOF;
+CalculatorLexer.T__0 = 1;
+CalculatorLexer.T__1 = 2;
+CalculatorLexer.LETRA_MINUS = 3;
+CalculatorLexer.LETRA_MAYUS = 4;
+CalculatorLexer.DIGITO = 5;
+CalculatorLexer.SIMBOLO = 6;
+CalculatorLexer.WS = 7;
+CalculatorLexer.NEWLINE = 8;
+CalculatorLexer.IF = 9;
+CalculatorLexer.ELSE = 10;
+CalculatorLexer.RETURN = 11;
+CalculatorLexer.PRINTF = 12;
+CalculatorLexer.LPAREN = 13;
+CalculatorLexer.RPAREN = 14;
+CalculatorLexer.LBRACE = 15;
+CalculatorLexer.RBRACE = 16;
+CalculatorLexer.SEMI = 17;
+CalculatorLexer.QUOTE = 18;
+
+
+
